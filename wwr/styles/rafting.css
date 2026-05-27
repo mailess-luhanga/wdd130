@@ -104,7 +104,8 @@ section {
 
 section h2 {
     background-color: var(--secondary-color);
-    color: var(--primary-color)
+    color: var(--primary-color);
+    border-bottom: 4px solid var(--accent1-color);
 }
 
 section p {
@@ -119,6 +120,7 @@ section p {
     gap: 20px;
     background-color: white;
     padding: 20px;
+    border-top: 5px solid var(--accent1-color);
 }
 
 .history-content img {
@@ -130,6 +132,7 @@ section p {
 .adventures {
     padding: 20px;
     background-color: white;
+    border-top: 4px solid var(--accent1-color);
 }
 
 .adventures-gallery {

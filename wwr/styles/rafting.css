@@ -88,9 +88,7 @@ nav a {
     bottom: 20px;
     left: 20px;
     right: 20px;
-    background-color: rgba(42, 157, 143, 0.9);
-    color: white;
-    padding: 20px;
+    background-color: var(--accent2-color)
 }
 
 .hero article img {
@@ -106,13 +104,11 @@ section {
 
 section h2 {
     background-color: var(--secondary-color);
-    color: white;
-    padding: 10px;
+    color: var(--primary-color)
 }
 
 section p {
-    background-color: white;
-    padding: 15px;
+    background-color: var(--primary-color)
 }
 
 /* HISTORY SECTION */

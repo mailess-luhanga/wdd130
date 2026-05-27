@@ -1,7 +1,7 @@
 table {
     border-collapse: collapse;
     border: 2px solid rgb(140 140 140);
-    font-family: sans-serif;
+    font-family: 'Segoe UI', sans-serif;
     font-size: 0.8rem;
     letter-spacing: 1px;
 }
@@ -18,4 +18,23 @@ tfoot tr {
     background-color: #000;
     color: #fff;
     font-weight: 700;
+    background-color: #ddd;
+    font-weight: bold;
+}
+
+tbody tr:hover {
+    background-color: #f0f0f0;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 8px;
+    margin-bottom: 5px;
 }

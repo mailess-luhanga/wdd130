@@ -1,0 +1,95 @@
+/* Page Styling */
+body {
+    font-family: Georgia, serif;
+    background: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Quiz Title */
+h1 {
+    color: #00008b;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Main Quiz Container */
+.quiz-container {
+    width: 650px;
+    background: #ddd;
+    border: 1px solid #c5c5c5;
+    padding: 25px;
+    border-radius: 3px;
+}
+
+/* Questions */
+.question {
+    margin-bottom: 28px;
+}
+
+.question label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000080;
+    margin-bottom: 12px;
+}
+
+/* Inputs & Textareas */
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #888;
+    font-size: 16px;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+/* Textarea Height */
+textarea {
+    height: 110px;
+    resize: vertical;
+}
+
+/* Code Box */
+.code-box {
+    width: 420px;
+    background: #333;
+    color: #fff;
+    padding: 18px 22px;
+    margin: 15px auto;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+/* Submit Button */
+button {
+    width: 100%;
+    background: #00008b;
+    color: white;
+    border: none;
+    padding: 16px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #000070;
+}
+
+.black-box {
+    background-color: #2f2f2f;
+    color: white;
+    width: 420px;
+    padding: 18px 20px;
+    margin: 15px auto;
+    font-family: monospace;
+    font-size: 16px;
+    border-radius: 2px;
+}

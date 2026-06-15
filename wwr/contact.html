@@ -4,11 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Contact White Water Rafting Company | Reservations & Inquiries</title>
-
+    <meta name="author" content="Mailess Luhanga">
     <meta name="description"
-      content="Contact White Water Rafting Company for reservations, trip questions, website feedback, and general inquiries. Reach our team and start planning your next rafting adventure.">
+      content="Contact White Water Rafting Company for reservations, trip questions, website feedback, or general inquiries. Our friendly team is ready to assist you in planning your next adventure. Whether you’re seeking thrills on the rapids or simply need information, we’re here to help make your rafting experience unforgettable.">
+    <title>Contact Us White Water Rafting Company</title>
 
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -21,10 +20,10 @@
         </div>
 
         <nav>
-            <a href="#">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">Trips</a>
-            <a href="#">Contact Us</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
         </nav>
     </header>
 
@@ -44,7 +43,7 @@
             <div class="map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1554.7369190115699!2d-120.88657946485715!3d38.798694852523745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2szm!4v1781102404986!5m2!1sen!2szm"
-                  width="400" height="650" style="border:0;" allowfullscreen="" loading="lazy"
+                  width="400" height="650" allowfullscreen="" loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <form>
@@ -115,6 +114,35 @@
             </div>
 
         </section>
+
+        <form method="post" action="review.html">
+
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <p>Rate our service:</p>
+
+            <input type="radio" id="excellent" name="rating" value="excellent">
+            <label for="excellent">Excellent</label>
+
+            <input type="radio" id="good" name="rating" value="good">
+            <label for="good">Good</label>
+
+            <input type="radio" id="poor" name="rating" value="poor">
+            <label for="poor">Poor</label>
+
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments"></textarea>
+
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <label for="subscribe">Subscribe to newsletter</label>
+
+            <button type="submit">Submit</button>
+
+        </form>
 
     </main>
 

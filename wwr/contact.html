@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,7 +8,7 @@
     <meta name="author" content="Mailess Luhanga">
     <meta name="description"
       content="Contact White Water Rafting for reservations, trip details, or inquiries. Our team is ready to help plan your adventure.">
-    <title>Contact Us White Water Rafting Company</title>
+    <title>Contact Us | White Water Rafting Company</title>
 
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -46,43 +47,47 @@
                   width="400" height="650" allowfullscreen="" loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <form>
+
+            <form action="#" method="post">
 
                 <div class="form-row">
-                    <label>Name</label>
-                    <input type="text" placeholder="Placeholder">
+                    <label for="fullname">Name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter your name"
+                      required>
                 </div>
 
                 <div class="form-row">
-                    <label>Email</label>
-                    <input type="email" placeholder="Placeholder">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email"
+                      required>
                 </div>
 
                 <div class="form-row purpose-row">
                     <label>Message<br>Purpose</label>
 
                     <div class="radio-options">
-                        <label><input type="radio" name="purpose"> General Inquiry</label>
+                        <input type="radio" id="general" name="purpose" value="general">
+                        <label for="general">General Inquiry</label>
 
-                        <label><input type="radio" name="purpose"> Reservation Question</label>
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        <label for="reservation">Reservation Question</label>
 
-                        <label><input type="radio" name="purpose"> Website Suggestion</label>
+                        <input type="radio" id="website" name="purpose" value="website">
+                        <label for="website">Website Suggestion</label>
                     </div>
                 </div>
 
                 <div class="form-row">
-                    <label>Message</label>
-                    <textarea placeholder="Type here"></textarea>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Type here"></textarea>
                 </div>
 
                 <div class="newsletter">
-                    <input type="checkbox" checked>
-                    <span>Please Subscribe me to the monthly newsletter.</span>
+                    <input type="checkbox" id="newsletter" name="newsletter" checked>
+                    <label for="newsletter">Please Subscribe me to the monthly newsletter.</label>
                 </div>
 
-                <button type="submit">
-                    Get in Touch!
-                </button>
+                <button type="submit">Get in Touch!</button>
 
             </form>
 
@@ -95,21 +100,19 @@
             <div class="employee-grid">
 
                 <article>
-                    <img src="images/rafting17_600.jpg" alt="Employee">
-                    <p>Employee Profile</p>
-                </article>
-
-
-                <article>
-                    <img src="images/rafting59_600.jpg" alt="Employee">
+                    <img src="images/rafting17_600.jpg" alt="Employee Profile 1">
                     <p>Employee Profile</p>
                 </article>
 
                 <article>
-                    <img src="images/rafting64_1024.jpg" alt="Employee">
+                    <img src="images/rafting59_600.jpg" alt="Employee Profile 2">
                     <p>Employee Profile</p>
                 </article>
 
+                <article>
+                    <img src="images/rafting64_1024.jpg" alt="Employee Profile 3">
+                    <p>Employee Profile</p>
+                </article>
 
             </div>
 

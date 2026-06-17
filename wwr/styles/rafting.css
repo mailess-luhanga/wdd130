@@ -335,3 +335,16 @@ footer {
     border-radius: 50%;
     display: inline-block;
 }
+
+.trip-images {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.trip-images img {
+    width: 48%;
+    height: 300px;
+    object-fit: cover;
+}
